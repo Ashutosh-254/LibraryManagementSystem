@@ -12,12 +12,12 @@ public class FineCalculator
         String rollNumber = in.nextLine();
         
       //Item Borrowed Information Collected
+        System.out.print("Days late: ");
+        int days = in.nextInt();
         System.out.println("Type R for Referece Book");
         System.out.println("Type J for Journals");
         System.out.println("Type O for others");
-        System.out.print("Enter book type: ");   
-        System.out.print("Days late: ");
-        int days = in.nextInt();
+        System.out.print("Enter book type: ");
         char type = in.next().charAt(0);
         int fine = 0;
         
